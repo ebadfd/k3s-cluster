@@ -1,0 +1,2 @@
+bucket      = "bucket-name"
+endpoints   = { s3 = "https://account_id.r2.cloudflarestorage.com"}

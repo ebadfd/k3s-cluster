@@ -1,0 +1,3 @@
+pve_username = "root@pam"
+pve_password = ""
+pve_host     = ""
