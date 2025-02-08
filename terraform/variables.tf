@@ -33,7 +33,7 @@ variable "pve_host" {
 }
 
 variable "k3s_master_nodes" {
-  default = 1
+  default = 3
 }
 
 variable "k3s_master_mem" {
@@ -41,7 +41,7 @@ variable "k3s_master_mem" {
 }
 
 variable "k3s_worker_nodes" {
-  default = 3
+  default = 4
 }
 
 variable "k3s_worker_mem" {
@@ -63,7 +63,8 @@ variable "worker_ips" {
     "10.20.23.91",
     "10.20.23.92",
     "10.20.23.93",
-    "10.20.23.94"
+    "10.20.23.94",
+    "10.20.23.95"
   ]
 }
 
